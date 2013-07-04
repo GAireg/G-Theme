@@ -1,6 +1,6 @@
 G-Theme
 =======
 
-G-Theme in GTK
+G-Theme is my personal theme.
 
-My GTK Theme
+It is very black/gray, but gives goot contrast with little backlight
