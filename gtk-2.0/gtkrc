@@ -1,5 +1,5 @@
 #
-# This theme is the default theme if no other theme is selected.
+# My own Theme
 #
 style "default-style"{
 	bg[NORMAL] = "#333333"
@@ -9,13 +9,13 @@ style "default-style"{
 	bg[ACTIVE] = "#555555"
 
 	fg[NORMAL] = "#ffffff"
-	fg[INSENSITIVE] = "#ffffff"
+	fg[INSENSITIVE] = "#999999"
 	fg[SELECTED] = "#ffffff"
 	fg[PRELIGHT] = "#ffffff"
 	fg[ACTIVE] = "#ffffff"
 
 	base[NORMAL] = "#333333"
-	base[INSENSITIVE] = "#555555"
+	base[INSENSITIVE] = "#333333"
 	base[SELECTED] = "#555555"
 	base[PRELIGHT] = "#555555"
 	base[ACTIVE] = "#555555"
@@ -25,6 +25,7 @@ style "default-style"{
 	text[SELECTED] = "#ffffff"
 	text[PRELIGHT] = "#ffffff"
 	text[ACTIVE] = "#ffffff"
+
 }
 
 class "*" style "default-style"
