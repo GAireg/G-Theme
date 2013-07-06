@@ -1,0 +1,36 @@
+@define-color default_bg #333333;
+@define-color brighter_bg #555555;
+@define-color default_text #ffffff;
+@define-color dark_text #999999;
+
+*{
+	color: @default_text;
+	background-color: @default_bg;
+	border-width: 1px;
+	border-radius: 2px;
+	border-style: none;
+	padding: 1px;
+}
+
+*:insensitive {
+	background-color: @default_bg;
+	color: @dark_text;
+}
+
+*:hover{
+	background-color: @brighter_bg;
+}
+
+*:selected{
+	background-color: @brighter_bg;
+}
+
+.entry,
+.button{
+	border-style: solid;
+	border-color: @brighter_bg;
+}
+
+.slider {
+	background-color: @brighter_bg;
+}
