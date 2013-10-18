@@ -26,6 +26,7 @@ style "default-style"{
 	text[PRELIGHT] = "#ffffff"
 	text[ACTIVE] = "#ffffff"
 
+	font_name="Liberation Sans"
 }
 
 class "*" style "default-style"
